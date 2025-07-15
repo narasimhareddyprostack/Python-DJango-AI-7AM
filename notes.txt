@@ -1,0 +1,60 @@
+Python is - General Purpose Programing Language.
+
+Java  - OOP Languague
+C     - Functional Programing Language
+JS    - Scripting PL.
+
+Good Morning - Java/Python/C/JS
+
+Java
+--------------
+Test.java
+class Test{
+public static void mian(String[] args){
+        
+	System.out.println("Good Morning");
+}
+}
+
+Guido Rossum - 
+1991  - Python  1.x,2.x  
+                3.x     -
+1995  - Java
+
+
+Where we can use Python?
+
+#Developring - Web Application - DJango
+#DevOPS
+#Data Engineering
+#Data Science(ML,NLP)
+#Data Analytics
+#Automation
+#Networking Application
+#AI  - Langgraph,LangChain
+#Database 
+-------------------------------------
+Data       - Python
+AI Agents  - Python
+Fin/Banking/Defence/Airlines- Java(Access Modifiers)
+
+Features of Python?
+
+Simple and Easy to Learn?
+--------------------------
+Keywords
+
+a=10
+b=20
+print(a+b)
+-------------------------
+free and Opensource
+
+Interpreteded PL?
+
+compiler based             Interpreted Based PL
+----------------------------
+converting High level to LowLevel
+
+
+
