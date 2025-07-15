@@ -56,5 +56,73 @@ compiler based             Interpreted Based PL
 ----------------------------
 converting High level to LowLevel
 
+=========================================================
+
+IDE - Integrated Dev Env
+Notepad++
+VS Code
+Thonny
+Google Colab
+Jupyter notebook
+Pycharm
+-------------------
+VS Code +co-piolor
 
 
+Python Identifer Rules?
+What is Identifier? Name in python Program
+
+1.Identifier should contains only a-z, A-Z,0-9, _ 
+2.Identifiers should not start with digits 0-9
+3.Identifier should not contains any special char/symbols
+4.Should not use  keyword/RW as identifer
+5.Case Sentivie
+
+
+
+class Test{}
+
+class Test:
+    pass        #To maintain dummy block
+
+def login():
+    pass
+
+Indentiation - 4 spaces
+--------------------------
+
+def logout():
+    print("Logout success")
+
+
+def calc(a,b):
+    return a+b
+
+
+Python - inbuilt functions:
+---------------------------
+print()    - print in terminal/console
+type()     - return data type
+id()       - return address of the object
+input()    - read data from user
+len()
+min()
+max()
+map()
+filter()
+-------Python Data type function----
+int()
+str()
+float()
+complex()
+bool()
+list()
+tuple()
+set()
+dict()
+bytes()
+bytearray()
+range()
+frozenset()
+nonetype()
+================================

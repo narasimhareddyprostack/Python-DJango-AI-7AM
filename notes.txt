@@ -126,3 +126,7 @@ range()
 frozenset()
 nonetype()
 ================================
+NameError
+SyntaxError
+IndentationEror
+--------------
