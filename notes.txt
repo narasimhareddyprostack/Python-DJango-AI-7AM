@@ -130,3 +130,52 @@ NameError
 SyntaxError
 IndentationEror
 --------------
+
+Python Data Types:
+
+<class,int>
+<class,float>
+<class,str>
+<class,complex>
+<class,boolean>
+
+<class,list>
+<class,tuple>
+<class,set>
+<class,dict>
+
+<class,bytes>
+<class,bytearray>
+<class,frozenset>
+<class,range>
+<class,noneType>
+
+Python builtin function
+--------------------------
+print()
+input()
+id()
+type()     - return the datatype
+
+eid=101
+print(type(eid))
+-------------------------
+Python List/set/tuple/bytes/ba/fz
+group of elments/values as one entity
+
+l = []
+t = ()
+s = {10}
+d = {}
+
+
+a=10
+
+==================================================
+create		read	update		delete
+
+
+Python St
+Pyton Identifies and rules
+Python Keywords
+Python Data types
