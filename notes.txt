@@ -179,3 +179,92 @@ Python St
 Pyton Identifies and rules
 Python Keywords
 Python Data types
+----------------------------
+Python Inbuilt function
+------------------------
+print()       -
+input()       -data from user. str type
+type()        - return the data type
+id()          - return the address of object
+min()         
+max()
+len()         - return the size of seq
+-----------------
+int()     <class,int>
+float()
+str()
+complex()
+bool()
+list()
+set()
+tuple()
+dict()
+bytes()
+bytearray()
+frozenset()
+range()
+nonetype()
+===============
+int()  - function
+How to represent int data type.
+using 
+decimal format      : 0 - 9       
+binary format       : 0,1         0b / 0B
+octal format        : 0-7         0o / 0O
+hexdecimal format   : 0-9,a,b,c,d,e,f/A,B,C,D,E,F  0x/0X
+
+a=15
+b=0b1111
+c=0o17
+d=0xf
+
+float() 
+bool()
+complex()
+str()
+===================
+a=float(10)
+print(a)
+
+
+bool()  - any type to bool type.
+
+print(bool(100))  
+
+
+complex data type
+10+20j
+0+0.5J  = 0 
+
+=================================
+Mutable vs           Immutable object
+list                     
+set
+dict
+bytearray
+
+
+a=100
+a=200
+
+
+Data Type & It functions.
+=========================
+Python Errors:
+--------------------
+SyntaxError
+NameError
+IndentationError
+TypeError
+
+ValueError
+KeyError
+AttributeError
+IndexError
+
+
+
+
+
+
+
