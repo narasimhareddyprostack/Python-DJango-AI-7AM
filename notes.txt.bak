@@ -179,3 +179,178 @@ Python St
 Pyton Identifies and rules
 Python Keywords
 Python Data types
+----------------------------
+Python Inbuilt function
+------------------------
+print()       -
+input()       -data from user. str type
+type()        - return the data type
+id()          - return the address of object
+min()         
+max()
+len()         - return the size of seq
+-----------------
+int()     <class,int>
+float()
+str()
+complex()
+bool()
+list()
+set()
+tuple()
+dict()
+bytes()
+bytearray()
+frozenset()
+range()
+nonetype()
+===============
+int()  - function
+How to represent int data type.
+using 
+decimal format      : 0 - 9       
+binary format       : 0,1         0b / 0B
+octal format        : 0-7         0o / 0O
+hexdecimal format   : 0-9,a,b,c,d,e,f/A,B,C,D,E,F  0x/0X
+
+a=15
+b=0b1111
+c=0o17
+d=0xf
+
+float() 
+bool()
+complex()
+str()
+===================
+a=float(10)
+print(a)
+
+
+bool()  - any type to bool type.
+
+print(bool(100))  
+
+
+complex data type
+10+20j
+0+0.5J  = 0 
+
+=================================
+Mutable vs           Immutable object
+list                     
+set
+dict
+bytearray
+
+
+a=100
+a=200
+
+
+Data Type & It functions.
+=========================
+Python Errors:
+--------------------
+SyntaxError
+NameError
+IndentationError
+TypeError
+
+ValueError
+KeyError
+AttributeError
+IndexError
+-------------------------------
+class-5 Operators?
+
+Arithmatic Operators  : +,-,*,/,% ,  //, ** 
+Logical Operators     : and or not 
+Relational            : <, <=, >,>=, ==, != 
+Assignment            : = 
+Membership            : in , not in  
+Identity OPerator     : is, is not 
+Bitwise Operator      :
+
+
+write one example - relation and logical operator?
+
+Check given number is 3 digit number or not?
+100 to 999
+
+num = int(input("Enter Number"))
+print(num>=100  and num<=999)
+
+What is Membership operator?   in, not in
+If you want  to verify 
+element/object/value present in sequence or not?
+
+What is sequence?
+list
+tuple
+set
+str
+bytes          0-255
+bytearray      0-255  
+range           
+frozenset      
+
+
+===========================
+class-6
+Membership Op : in , not in - 
+Identity   Op : is , is not - Ref comparision
+------------------------------------
+element/dict/user/object/value/char  - present in seq
+Seqeence might be - List,set/tuple/string/b/ba/fz/range
+--------------------------------------------------------
+list=[10,20,30,40,{},{10}]
+tuple=(10,20,30)
+set={10,10,10,10}
+str="Rahul"
+
+print(10 in list)
+
+#Read two/three integer numbers from user, 
+print min and max value 
+===========================================
+#prnit min value from 3 number
+a=int(input("Enter First Number:"))
+b=int(input("Enter Sec Number:"))
+c=int(input("Enter Third Number:"))
+
+#min_value = a if a<b and a<c else b if b<c else c 
+print(min(a,b,c))
+
+#print(min_value)
+=============================================
+Control St:
+
+Verify - given is 3 digit not or not
+verify - given is even or add number using if-else st
+
+
+num=int(input("Enter Number:"))
+
+if cond st:
+   print("Even Number")
+else:
+   print("Odd Number")
+
+
+
+if "Salaman":
+    print("Still Bachelor")
+else:
+    print("We dont know!")
+
+
+
+
+
+
+
+
+
+
+

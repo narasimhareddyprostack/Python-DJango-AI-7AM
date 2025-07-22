@@ -261,6 +261,123 @@ ValueError
 KeyError
 AttributeError
 IndexError
+-------------------------------
+class-5 Operators?
+
+Arithmatic Operators  : +,-,*,/,% ,  //, ** 
+Logical Operators     : and or not 
+Relational            : <, <=, >,>=, ==, != 
+Assignment            : = 
+Membership            : in , not in  
+Identity OPerator     : is, is not 
+Bitwise Operator      :
+
+
+write one example - relation and logical operator?
+
+Check given number is 3 digit number or not?
+100 to 999
+
+num = int(input("Enter Number"))
+print(num>=100  and num<=999)
+
+What is Membership operator?   in, not in
+If you want  to verify 
+element/object/value present in sequence or not?
+
+What is sequence?
+list
+tuple
+set
+str
+bytes          0-255
+bytearray      0-255  
+range           
+frozenset      
+
+
+===========================
+class-6
+Membership Op : in , not in - 
+Identity   Op : is , is not - Ref comparision
+------------------------------------
+element/dict/user/object/value/char  - present in seq
+Seqeence might be - List,set/tuple/string/b/ba/fz/range
+--------------------------------------------------------
+list=[10,20,30,40,{},{10}]
+tuple=(10,20,30)
+set={10,10,10,10}
+str="Rahul"
+
+print(10 in list)
+
+#Read two/three integer numbers from user, 
+print min and max value 
+===========================================
+#prnit min value from 3 number
+a=int(input("Enter First Number:"))
+b=int(input("Enter Sec Number:"))
+c=int(input("Enter Third Number:"))
+
+#min_value = a if a<b and a<c else b if b<c else c 
+print(min(a,b,c))
+
+#print(min_value)
+=============================================
+Control St:
+
+Verify - given is 3 digit not or not
+verify - given is even or add number using if-else st
+
+
+num=int(input("Enter Number:"))
+
+if cond st:
+   print("Even Number")
+else:
+   print("Odd Number")
+
+
+
+if "Salaman":
+    print("Still Bachelor")
+else:
+    print("We dont know!")
+
+Iterative St:
+if you want to execute block of code/iterate python collection/seq
+
+for loop
+while loop
+===========================
+
+For Loop:
+
+range(): - generate sequence of numbers
+1,2,3,4,5
+10,20,30,40
+5,10,15,20,25
+3,6,9,12,15
+syntax 
+range([start],end,[step])
+
+range(5)       - range(0,5,+1)
+range(100,200) - range(100,200,+1)
+range(10,41,10)-range(10,41,10)
+range(3,16,3)  -range(3,16,3)
+Note: End value - excluding mean -1
+-------------------------------------------
+print 1 to 10
+print 10 to 20
+print 5,10,15,....50
+
+for num in range(1,11,1):
+	print(num)
+==============================
+
+
+
+
 
 
 
