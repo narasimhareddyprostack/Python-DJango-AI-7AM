@@ -344,10 +344,100 @@ if "Salaman":
 else:
     print("We dont know!")
 
+Iterative St:
+if you want to execute block of code/iterate python collection/seq
+
+for loop
+while loop
+===========================
+
+For Loop:
+
+range(): - generate sequence of numbers
+1,2,3,4,5
+10,20,30,40
+5,10,15,20,25
+3,6,9,12,15
+syntax 
+range([start],end,[step])
+
+range(5)       - range(0,5,+1)
+range(100,200) - range(100,200,+1)
+range(10,41,10)-range(10,41,10)
+range(3,16,3)  -range(3,16,3)
+Note: End value - excluding mean -1
+-------------------------------------------
+print 1 to 10
+print 10 to 20
+print 5,10,15,....50
+
+for num in range(1,11,1):
+	print(num)
+==============================
+for loop: iterate your sequences
+Sequence might be - list,set,tuple,str,bytes,ba,fz,range
+
+elements=[10,20,30,40,{},{10}]
+numbers=(10,20,30)
+ids={10,10,10,10}
+ename="Rahul"
 
 
 
+==============================
+How to read command line arguments? 
+What is command line arguments
+How to read data from user? using input() function.
 
+
+List: group of elements as one entity
+
+create  
+numbers=[0,100,200,300]
+read:
+numbers[0]   0
+numbers[1]   100
+numbers[2]   200
+numbers[3]   300 
+
+list - slice
+numbers[1:]
+
+
+for loop- iterate your sequences
+list/tuple/set/str/bytes/ba/fz/range
+
+While Loop?
+-----------
+
+Break st:we are using breack st inside loops to break loop execution based on condition
+
+continue st: skip current iteration and execute next based on condtion.
+
+
+numbers=[0,1,2,3,4,5,6,7,8,9]
+for num in numbers:
+	print(num)
+
+================================
+Python Identifiers and Rule
+Keywords  - 35
+Data Type - ename="Rahul" / 14 
+Mutable and Immutable
+Operators
+Controll Flow st(Conditional and iterative st)
+Command Line Argv
+Python Error and inbuilt function
+-------------------------------
+Python Module 
+Functions
+List,tuple,set,duct,str
+------------------------------
+import keyword
+print(keyword.kwlist)
+
+import sys 
+print(sys.argg)
 
 
 
