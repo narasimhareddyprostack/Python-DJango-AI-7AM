@@ -432,6 +432,12 @@ Python Error and inbuilt function
 Python Module 
 Functions
 List,tuple,set,duct,str
+Error Handling - try,except,finally,raise
+File Handling - JSON,CSV 
+DB Handling  - PDBC
+ETL - cloud
+AWS  - boto3
+DJango Framework
 ------------------------------
 import keyword
 print(keyword.kwlist)
@@ -439,8 +445,15 @@ print(keyword.kwlist)
 import sys 
 print(sys.argg)
 
+------------------------------
+What is Module?
+Every Py file acting module.
+Module contains 
+varaibles
+function
+class,
+object
 
-
-
+Module members -
 
 

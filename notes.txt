@@ -445,8 +445,64 @@ print(keyword.kwlist)
 import sys 
 print(sys.argg)
 
+------------------------------
+What is Module?
+Every Py file acting module.
+Module contains 
+varaibles
+function
+class,
+object
 
+Module members -
 
+Inbuilt Modules?
+----------------
+json
+csv
+requests
+re
+math
+random
+os
+sys
+keyword
 
+how to display - module members?
+--------------------------------
+dir()  - inbuilt function
+print()
+input()
+id()
+type()
+min()
+max()
+len()
 
+how to import modules?  from and import keyword
+-----------------------------
+import module1,module2,module3
+import module1 as m1, module2 as m2
+from module import member1,member2,member3
+from module import *
+from module import member1 as m1, member2 as m2
 
+=========================
+generate 10 - 4 digit OTP numbers using random module.
+
+What is random module?
+generate random number.
+
+randint()
+random()
+choises()
+randrange()
+etc
+-============
+os.platform - Js
+os.
+--------------
+math
+random
+os
+keyword
