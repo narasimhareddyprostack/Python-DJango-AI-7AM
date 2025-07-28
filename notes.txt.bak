@@ -456,4 +456,144 @@ object
 
 Module members -
 
+Inbuilt Modules?
+----------------
+json
+csv
+requests
+re
+math
+random
+os
+sys
+keyword
 
+how to display - module members?
+--------------------------------
+dir()  - inbuilt function
+print()
+input()
+id()
+type()
+min()
+max()
+len()
+
+how to import modules?  from and import keyword
+-----------------------------
+import module1,module2,module3
+import module1 as m1, module2 as m2
+from module import member1,member2,member3
+from module import *
+from module import member1 as m1, member2 as m2
+
+=========================
+generate 10 - 4 digit OTP numbers using random module.
+
+What is random module?
+generate random number.
+
+randint()
+random()
+choises()
+randrange()
+etc
+-============
+os.platform - Js
+os.
+--------------
+math
+random
+os
+keyword
+===========================
+
+Variable  - Property
+function  - method
+class     - variables + Methods
+object
+================================
+
+eid=101 
+[].append()
+
+def append():
+    pass
+
+class List:
+
+    def append():
+    pass
+---------------------------
+User Module 
+Registration()
+Login()
+logout()
+forgetpwd()
+updteProfile()
+
+function: group of statement for specific purpose
+	  and execute business logic , 
+	  return result/value
+
+
+create
+---------
+def login():
+    print("GM")
+    print("GA")
+    print("GE")
+   
+
+login()
+===========================
+Top 25 Python - Error
+SE
+IndetationError
+NameError
+ValueError          int("100")   int("Rahul")
+IndexError
+TypeError
+KeyError
+AttributeError
+FNFError
+FEError
+ZeroDivisionError
+
+
+def  append():
+	      pass
+
+class List:
+	def  append():
+	      pass
+
+List Data Strcture?
+------------------
+if you want represent
+-group of elements as on entity
+-where duplicates are allowed and
+-allowed heterogenous elements
+-list elements are storing based on indexing
+Note: -ve indexing is also possible.
+-insertion order/order maintained
+-List is iterable object,we can iterate using 
+a)for loop
+b)while loop
+-List is mutable object
+
+List Methods:
+
+
+
+Tuple Data Strcture?
+-------------------
+
+Tuple Methods:
+
+
+
+Set Data Strcture?
+-------------------
+
+Set Methods:

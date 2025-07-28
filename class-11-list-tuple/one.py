@@ -1,0 +1,15 @@
+#create
+l1=[]
+l2=list()
+l3=[10,20,30]
+l4=[10,20.5,10,"Rahul",True,[],(10,20),{10},"Rahul"]
+#read 
+print(l1)
+print(l2)
+print(l3)
+print(l4)
+#type
+print(type(l1))
+print(type(l2))
+print(type(l3))
+print(type(l4))
