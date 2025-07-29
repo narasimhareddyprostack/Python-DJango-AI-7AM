@@ -581,19 +581,62 @@ Note: -ve indexing is also possible.
 a)for loop
 b)while loop
 -List is mutable object
-
 List Methods:
+
+
+
+
+
+
+
+
 
 
 
 Tuple Data Strcture?
 -------------------
+if you want represent
+-group of elements as on entity
+-where duplicates are allowed and
+-allowed heterogenous elements
+-Tuple elements are storing based on indexing
+Note: -ve indexing is also possible.
+-insertion order/order maintained
+-Tuple is iterable object,we can iterate using 
+a)for loop
+b)while loop
+Note:
+-Tuple is Immutable object
+-Tuple - readonly vesion of list
 
 Tuple Methods:
-
+t.index(elemement)
+t.count()
 
 
 Set Data Strcture?
--------------------
+------------------
+-group of elements are one entity
+-where duplicates are not allowed but
+-heterogenous elements are allowed.
+-indexing concept is not applicable.
+-insertion order not guarantee.
+-we can iterate using - for loop
+-set is Mutable object
+
+s1={}  
 
 Set Methods:
+
+
+
+
+s1.remove(element)
+s1.dicard(element)
+- remove specified element from set object.
+
+s1.remove(ele) :method - If element not present in set object
+it return error - valueError
+
+s1.dicard(ele): method - If element not present in set object
+it wont return any error 
