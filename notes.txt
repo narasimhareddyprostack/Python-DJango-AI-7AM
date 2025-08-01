@@ -636,7 +636,147 @@ s1.dicard(element)
 - remove specified element from set object.
 
 s1.remove(ele) :method - If element not present in set object
-it return error - valueError
+it return error - KeyError: 'NM'
 
 s1.dicard(ele): method - If element not present in set object
 it wont return any error.
+
+=============
+when to use - list, set:
+If you want maintain uniqueness?
+
+Database
+Customer 1000  
+	     multiple addresses- 1500
+
+Message to all my customers?
+
+Process my data - using set object
+-------------------------------
+Python dict:
+{'eid':101,'ename':'Rahul'}
+-group of key:value pair as one entity
+-group of properties(name:value)
+-duplicate keys are not allowed 
+ but duplicate values are allowed
+-indexing concept not application.
+=====================================
+
+File Handling in Python
+text File
+----------
+.txt
+.json
+.csv
+---------
+binary files
+.jpg/.png
+.mp4
+Databases- PDBC
+
+
+fp=open('data.txt','r')
+#to know about fp file pointer info.
+print(fp.name)    #data.txt
+print(fp.mode)    # r 
+print(fp.readable()) #True
+print(fp.writable()) #False
+print(fp.closed)     #False
+fp.close()
+print(fp.closed)     #True
+-------------------------
+Backend Dev  - Rest API
+JSON - javascript object notation
+JS Data Type:
+
+
+ETL
+
+Extract -from cloud/DWH/Database/File systems
+Transform - apply  
+Load   -into cloud/databases/FS
+=========================
+Text Files    -  r,r+,w,w+,a,a+,x
+Binary Files  -  rb,rb+,wb,wb+,ab+,xb
+
+Text   Files  -  .txt,.json, .csv etc
+Binary Files  -  .jpg,.jpeg, png, mp4,mp3
+========================================
+JSON Data
+To exchage data between software components
+XML 
+JSON
+CSV
+----------------------------------------
+JSON - load(),dump(),loads(),dumps()  
+CSV  - writer(),reader()
+       writerrow()
+       writerows()
+--------------------------------------
+Extract
+Tranform
+Load
+--------------------------------------
+how to handle CSV files(read and write)
+comma seperate version
+
+
+Python Modules
+--------------
+math
+random
+csv
+json
+os
+pathlib
+sys
+keyword
+functools
+-----------------
+How to invoke rest API in Python?
+requests module?
+Rest API - 
+How to rest rest API? tools  post man tools
+
+Rest API Methods
+GET    - read
+POST   - create
+PUT    - update
+DELETE - delete
+-----------------------------------------
+Rest API URL: http://www.flipkart.com/users
+Method Type : GET
+Required Fields: None
+Access Type: Public
+
+Rest API URL:http://www.flipkart.com/user/login
+Method Type :POST
+Required Fields:email,password
+Access Type:Public
+
+How to consume Rest API in Frontend 
+and 
+Python - using requests module
+
+
+Rest API URL: https://jsonplaceholder.typicode.com/users
+Method Type : GET
+Required Fields: None
+Access Type: Public
+---------------------------------------
+Task -1 :
+invoke/consume below Rest API
+and write user data into new user.json and user.csv file
+
+Rest API info:
+Rest API URL: https://jsonplaceholder.typicode.com/users
+Method Type : GET
+Required Fields: None
+Access Type: Public
+
+how to consume/invoke rest api - requests module
+how to write users list data into json file - json module
+how to write users data into csv file - csv module
+
+
+Task2:
