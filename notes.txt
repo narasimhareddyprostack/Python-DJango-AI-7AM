@@ -780,3 +780,59 @@ how to write users data into csv file - csv module
 
 
 Task2:
+======================================
+function?
+
+def fun1(a,b,c):
+	st1
+	st2
+	st3
+fun1()
+fun1(10,20,30)
+function Agrument type:
+positional
+keyword
+default arg
+var lenght arg
+----------------------------------
+How to invoke inner function from outside?
+if you want invoke inner  function from outside?
+
+return the inner function ref.
+with help of inner function ref.
+-----------------------------------
+lambda expression/nameless function/nested function
+------------------------------
+
+map()    - to create new seq based on condition
+filter() - to filter values/elements of given sequence 
+           based on condition
+reduce() - 
+
+[10,20,30,40]
+[11,21,31,41]
+---------------------------------------------------
+map_obj=map(func,seq)
+filter_obj=filter(func,seq)
+reduce(func,seq) - 
+reducer is function, reducer into sigle element of 
+given sequence based on condition.
+==================================================
+reduce()  from functools module
+======================================
+Error Handling
+Syntax Errors
+RuntimeError/Exception
+Why we need to handling Error/Exceptions
+To avoid program termination abnormally!
+Successfull termination of program
+
+
+try:
+    Risky code
+except:
+    Handling Code
+finally:
+    mandatory code
+raise:
+    hanlding custom error
