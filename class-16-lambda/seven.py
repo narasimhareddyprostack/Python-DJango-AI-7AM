@@ -1,0 +1,15 @@
+#python inbuilt function
+print()
+input()
+type()
+id()
+len()
+min()
+max()
+-14 data type function int(),str(),bool()
+#Type casting function - 
+bin()
+oct()
+hex()
+map()
+filter()
