@@ -953,3 +953,16 @@ Note: Code resuability
 Type Inheritance?
 Note: Python supports all kind of inheritances 
       except cyclic inheritance.
+
+Single Ineritance  Multiple  Multi-Level Hybird & Heirachry Intance
+
+========================================
+Abstraction   - Hiding Essential details  @absractmethod
+Encapsulation - binding data and methods as single unit. 
+Inheritance   - Inheriting properties from one class 
+                to another class.
+Polymorphism  - Object acting as many form
+              - Operator
+	
+	      
+	     
