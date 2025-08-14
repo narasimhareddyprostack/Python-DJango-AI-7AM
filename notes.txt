@@ -957,6 +957,7 @@ Note: Python supports all kind of inheritances
 Single Ineritance  Multiple  Multi-Level Hybird & Heirachry Intance
 
 ========================================
+
 Abstraction   - Hiding Essential details  @absractmethod
 Encapsulation - binding data and methods as single unit. 
 Inheritance   - Inheriting properties from one class 
@@ -964,5 +965,28 @@ Inheritance   - Inheriting properties from one class
 Polymorphism  - Object acting as many form
               - Operator
 	
-	      
-	     
+Abstract class   : any class contains zero or more abstract method
+abstract method  : if dont know about proper impl logic
+
+
+===========================================
+PDBC
+	Files
+	Database
+
+data.txt/data.pdf
+Mysql/Oracle DB/MongoDB
+
+a=100
+
+=========================================
+1)CMD
+2)GUI
+3)Write a program
+
+
+Mysql                       MongoDB
+
+CRUD
+-----------------------------------------
+
