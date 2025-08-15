@@ -980,7 +980,54 @@ Mysql/Oracle DB/MongoDB
 a=100
 
 =========================================
+1)CMD
+2)GUI
+3)Write a program
+
+
 Mysql                       MongoDB
 
 CRUD
----------------------------------------
+-----------------------------------------
+
+create table employees(
+eid int Not Null,
+ename varchar(32) Not Null ,
+esal float
+);
+
+insert into employees
+values
+(101,'Rahul',45000.45);
+
+===================================
+Rest API:
+URL:https://jsonplaceholder.typicode.com/users
+Method:GET
+Required Fields:None
+Access Type:Public
+
+consume Rest API-
+insert/load data into - Mysql 
+		        MongoDB
+		        JSON file
+		        csv file.
+Extract Data 
+Tranform
+Load Data
+
+Step 1: Test Rest API
+        analyze data
+Step 2: Extract
+Step 3: Tranform based on req
+Step 4: load into destination
+
+
+create table users(
+uid int not null,
+uname varchar(50) not null,
+email varchar(50) not null,
+city  varchar(50) not null,
+phone varchar(50) not null
+);
+
