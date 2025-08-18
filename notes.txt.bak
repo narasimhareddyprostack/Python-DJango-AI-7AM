@@ -1031,3 +1031,31 @@ city  varchar(50) not null,
 phone varchar(50) not null
 );
 
+
+
+Task 
+======================
+Task  4: 
+REST URL: https://dummyjson.com/products
+Method Method:GET
+Access Type:Public
+Required Fields: None
+
+Consume Rest Api in python, 
+insert /write only beauty Product data into new
+CSV file
+Json file
+Insert into mysql Product table
+insert into mongoDB Product collection
+
+Note: with Error handling options
+
+
+
+[{"pid":1,"prodName":"Essence Mascara Lash Princess",
+  "price":9.99,"category":"beauty"
+ },
+ ....
+}
+
+===========================================================
