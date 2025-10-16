@@ -172,3 +172,33 @@ how to start server?
 server.py
 
 uvicorn server:app --reload
+=======================================
+
+
+request Object
+
+http://lh:8000/
+http://happystance.com/
+
+
+http://lh:8000/kids
+http://happystance.com/kids
+
+What is use of Path- to identify the resource
+
+http://lh:8000/kids/small
+http://lh:8000/kids/medium
+http://lh:8000/kids/large
+http://happystance.com/kids/small
+
+@app.get("/kids/{size}")
+
+Path Parameter?
+To identify the specific resources
+
+Query Paramether
+http://lh:8000/kids/small/?price=asc
+http://happystance.com/kids/small/?price=asc
+
+
+

@@ -124,3 +124,51 @@ How to test Rest API - using PostMAN/Swagger docs
 Create Read Update Delete
 POST   GET  PUT    DELEETE
 
+activate Virtual Environment?
+farr\Scripts\activate.bat
+
+Create Read Update Delete
+POST   GET  PUT    DELEETE
+
+Create
+------
+Usage:create new user
+API URL:http://127.0.0.01:8000/create
+API URL:http://127.0.0.01:8000/
+Method Type:POST
+Required Fields:uname,uloc,uemail
+Access Type:Public
+
+Read
+---------
+Usage:featch all users
+API URL:http://127.0.0.01:8000/read
+API URL:http://127.0.0.01:8000/
+Method Type:GET
+Required Fields:None
+Access Type:Public
+
+Update
+------------
+Usage:update User by Id
+API URL:http://127.0.0.01:8000/update/101
+API URL:http://127.0.0.01:8000/101
+Method Type:PUT
+Required Fields:uname,uloc,uemail
+Access Type:Public
+
+Delete
+------
+Usage:delete User by id
+API URL:http://127.0.0.01:8000/delete/101
+API URL:http://127.0.0.01:8000/101
+Method Type:DELETE
+Required Fields:None
+Access Type:Public
+
+
+PIP install fastapi uvicorn aswgi
+how to start server?
+server.py
+
+uvicorn server:app --reload
