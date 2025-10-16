@@ -1,0 +1,15 @@
+https://dummyjson.com/users
+users=[]
+
+http://127.0.0.1:8000/users
+http://127.0.0.1:8000/users/1
+
+http://127.0.0.1:8000/users?age=25
+http://127.0.0.1:8000/users?age=25&weight=50
+
+develop Rest API - using FastAPI for abouve URL
+contains - Path and Query Parameters
+1.fetch all users
+2.fetch user by id
+3.fetch all users age more than 25
+4.fetcha all users age more than 25 & weight more than 50.

@@ -1061,4 +1061,58 @@ Note: with Error handling options
 ===========================================================
 how to invoke/consume api in python?
 requests - modules
+======================================
+FastAPI - is modern,fast,high-performnace web framework
+for building/developing api with python.
+--------------------------------------------
+Python create Vertual Env?
+python -m venv  myprojenv
 
+how to activae virtual env?
+
+execute activate.bat file - 
+cmd>myproj\Scripts\activate.bat
+
+how to deactivae virtual env?
+deactivate
+------------------------------------------
+fastapi  - 3rd party dependency
+uvicorn  - server
+
+pip install fastapi uvicorn
+---------------------------------
+
+https://www.flipkart.com/mens-casual-shirts/pr?sid=clo,ash,axc,mmk,kp7&fm=neo%2Fmerchandising&iid=M_89c44ee6-c57c-46fc-a5b7-f63dbfe1481e_2_X1NCR146KC29_MC.T90K0OVXSK7D&otracker=hp_rich_navigation_3_2.navigationCard.RICH_NAVIGATION_Fashion~Men%27s%2BTop%2BWear~Men%27s%2BCasual%2BShirts_T90K0OVXSK7D&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&cid=T90K0OVXSK7D
+
+www.flipkart.com  - domain name
+http://127.0.0.1:8000/  host:port
+http://localhost:8000/
+mens-casual-shirts  - path
+pr?sid=clo          - Query Param   
+
+http://127.0.0.1:8000/mens-casual-shirts/pr?sid=clo
+=====================================
+
+'''
+API URL: http://localhost:8000/
+Method Type:GET
+'''
+
+'''
+API URL: http://localhost:8000/about
+Method Type:GET
+'''
+'''
+API URL: http://localhost:8000/contact
+Method Type:GET
+'''
+how to test RestAPI?
+Rest API - Test Tools
+
+Postmap
+vs - restapi  extension
+agigee
+karatee
+
+
+http://localhost:8000/docs

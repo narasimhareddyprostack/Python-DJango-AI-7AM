@@ -1,0 +1,126 @@
+1.API
+usage:Get user/emp/order/product details
+API URL:http://127.0.0.1:8000/users
+Method Type:GET
+Required Fields: None
+Access Type:Public
+
+2.API
+usage:login request
+API URL:http://127.0.0.1:8000/login
+Method Type:POST
+Required Fields: email,password
+Access Type:Public
+
+
+3.API
+usage:update user 
+API URL:http://127.0.0.1:8000/user
+Method Type:PUT
+Required Fields: name,loc,mobile
+Access Type:Public
+
+
+4.API
+usage:delete user/emp/product 
+API URL:http://127.0.0.1:8000/user/101
+Method Type:DELETE
+Required Fields: None 
+Access Type:Public
+
+
+How to rest - Rest API - using testing tools
+1. POST MAN
+==========================================
+API URLs:
+API URL:http://127.0.0.1:8000/users
+API URL:http://127.0.0.1:8000/login
+API URL:http://127.0.0.1:8000/user
+API URL:http://127.0.0.1:8000/user/
+
+https://www.flipkart.com
+/home-kitchen
+/home-appliances
+/~cs-cxiwgsw0bh
+/pr?
+sid=j9e%2Cabm
+&hpid=c8g9ybnVaxQsoYIuQNH36qp7_Hsxr70nj65vMAAFKlc%3D
+&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTk5OSJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6IkZBTkdYMjM0TlVRTldWWkoiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJGYW5zICYgR2V5c2VycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D
+
+Path Parameter & Query Paramters?
+
+case use
+----------------
+fetch all user details         - /users
+fetch user details  by id     - /user/101
+fetch product details by id   - /product/10001
+fetch all products             - /products
+nested resouces                - /user/101/order/10001
+
+
+
+
+Path Parameter & Query Paramters?
+Path parameter is variable it is part of url.
+it used to identify a specific resouces.
+
+
+http://127.0.0.1:8000/
+http://127.0.0.1:8000/user/101        - Fetch user by Id
+http://127.0.0.1:8000/users/          - Fetch all Users
+What is Path Parameter?
+Path parameter is variable it is part of url.
+
+https://www.flipkart.com/big-billion-days-store?Param=40003556665
+https://www.flipkart.com/
+big-billion-days-store                - Path Parameter
+?Param=40003556665                    - Query Parameter
+
+Path Parameter : is variable part of url
+Query Parameters:is value passed in url after ? symbol
+
+When to use Query Parameters?
+you want to filter, sort, pagination or modify result.
+
+
+URL
+/products?category=beauty       -search beauty products
+/products?page=2&limit=20       -pagination
+/products?sort=price_desc       -sorting
+
+
+
+http://127.0.0.1:8000/products
+http://127.0.0.1:8000/products?caterogy=beauty
+
+http://127.0.0.1:80000/items/101?price=1000
+@app.get("/items/{item_id}")
+
+Path Parameter - is used to identify resources.
+
+
+
+http://127.0.0.1:8000/products
+Category - None
+http://127.0.0.1:8000/products?caterogy=beauty
+Category - beauty
+
+
+http://127.0.0.1:8000/products
+http://127.0.0.1:8000/products?category=fragrances
+
+
+Pydantic - is Python library for data validation.
+
+Why?
+Automatic Valitions
+Automatic Error Response
+inbuilt - Swagger Doc
+Serilization/Deserilizaton - Python Object to JSON object
+-------------------------------------------------------
+class-5
+How to perform crud
+How to test Rest API - using PostMAN/Swagger docs
+Create Read Update Delete
+POST   GET  PUT    DELEETE
+
