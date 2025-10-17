@@ -1,0 +1,15 @@
+create -
+-----------------------------------
+Usage: create new product
+API URL:http://127.0.0.1:8000/api/
+Method Type:POST
+Required Fields:pname,price,qty,info
+Access Type:public
+
+Note: 
+pname - required 
+price - required and more than 1000 
+qty   - min 1 
+info  - required
+How to write data validation in FastaPI?
+using Pydatic Library
